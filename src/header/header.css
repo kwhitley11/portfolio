@@ -1,0 +1,34 @@
+.header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0  0 50px 0;
+    margin-bottom: 3rem;
+}
+
+.header__container h1 {
+    font-weight: 700;
+}
+
+.header__container-image img {
+    height: 12rem;
+    width: auto;
+    margin-bottom: 2rem;
+}
+
+.header__container-links a {
+    background: #F9F9F9;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #000;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header__container-links a:hover {
+    box-shadow: rgb(93, 93, 93) 2px 2px;
+    background: #acacac;
+}

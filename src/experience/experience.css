@@ -1,0 +1,26 @@
+.experience__container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: none;
+    text-align: center;
+}
+
+.experience__container-icons {
+    border-radius: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.5rem 1rem;
+}
+
+.experience__container-icons div {
+    margin: 0 2rem 0 2rem ;
+    font-weight: 700;
+    color: #fff;
+    line-height: 2rem;
+}
+
+.experience__container-icons:hover {
+    background: rgba(0,0,0,0.6);
+    border-radius: 3rem;
+}
